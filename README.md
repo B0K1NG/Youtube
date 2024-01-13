@@ -8,6 +8,8 @@ This project is a simplified recreation of the YouTube platform using HTML and C
 
 ## Features ✨
 
+- **Title Imgae:** Added title image of youtube.
+
 - **Search Bar:** A basic search bar for user input.
   
 - **Video Preview:** An image and details of a sample video (Anomaly's "5 OF EVERY SINGLE CASE BATTLE").
@@ -15,10 +17,8 @@ This project is a simplified recreation of the YouTube platform using HTML and C
 - **Video Information:** Display of video title, view count, upload date, and author.
 
 - **Responsive Design:** Basic styling for a clean and responsive layout.
-
-## Under Construction 🚧
-
-This project is currently under construction. Future updates may include enhanced features, dynamic content, and improved styling.
+  
+- **Ability To Go TO The Video:** Basic anchor function that when you click on a video it links you directly to the video.
 
 ## Tech Stack 💻
 - Visual Studio Code
