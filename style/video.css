@@ -3,7 +3,8 @@
 /* Making images as a block */
 .img {
   width: 100%;
-  
+  border-radius: 15px;
+  margin-top: 0;
 }
 
 /* Correcting video preview */
@@ -12,16 +13,17 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .profile-picture {
-  width: 40px;
+  width: 30px;
   border-radius: 50px;
 }
 
 .video-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
 }
 
 .video-author,
@@ -44,6 +46,39 @@
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 40px;
-  column-gap: 16px;
+  row-gap: 35px;
+  column-gap: 13px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 6px;
+  right: 5px;
+  border-radius: 6px;
+  
 }
